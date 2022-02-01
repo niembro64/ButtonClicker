@@ -81,11 +81,11 @@
     flex: 2;
     height: 100%;
     display: flex;
+    flex-direction: column;
 }
 .bottomCenterLeftItem {
     background-color: white;
-    height: 200px;
-    flex: 1;
+    height: auto;
     margin: 5px 5px 5px 0px;
     border-style: solid;
     border-color: black;
@@ -100,11 +100,24 @@
     background-color: blue;
     height: 100%;
     flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#likes{
+background-color: orange;
+padding: 3px 15px 3px 15px;
+margin: 30px;
 }
 .bottomCenterLeftItemRight {
     background-color: rgb(57, 163, 101);
     height: 100%;
     flex: 2;
+
+    display: flex;
+    align-items: center;
 }
 #bottomCenterRight {
     background-color: green;
@@ -134,4 +147,8 @@
     border-radius: 3px;
     padding: 3px 20px 3px 20px;
     margin: 3px 20px 3px 20px;
+}
+
+h3{
+    font-style: italic;
 }
