@@ -106,10 +106,10 @@
     align-items: center;
     justify-content: space-between;
 }
-#likes{
-background-color: orange;
-padding: 3px 15px 3px 15px;
-margin: 30px;
+#likes {
+    background-color: orange;
+    padding: 3px 15px 3px 15px;
+    margin: 30px;
 }
 .bottomCenterLeftItemRight {
     background-color: rgb(57, 163, 101);
@@ -149,6 +149,6 @@ margin: 30px;
     margin: 3px 20px 3px 20px;
 }
 
-h3{
+h3 {
     font-style: italic;
 }
