@@ -2,10 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  .EricButton{
-border-radius: 50%;
-padding: 30px;
-  }
+#top {
+    height: 100px;
+    background-color: red;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#topCenter {
+    height: 100%;
+    width: 700px;
+    background-color: green;
+}
+
+#bottom {
+    background-color: aqua;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottomCenter {
+    height: 500px;
+    width: 700px;
+    background-color: grey;
+}
