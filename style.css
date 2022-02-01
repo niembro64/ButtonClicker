@@ -93,6 +93,13 @@
     border-color: black;
     border-width: 3px;
     border-radius: 3px;
+    
+    display: flex;
+}
+.bottomCenterLeftItemLeft{
+  background-color: green;
+  height: 100%;
+  flex: 1; 
 }
 #bottomCenterRight {
     background-color: green;
